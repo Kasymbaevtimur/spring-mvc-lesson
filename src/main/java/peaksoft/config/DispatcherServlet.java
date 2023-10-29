@@ -5,7 +5,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 /**
  * этот класс DispatcherServlet расширяет AbstractAnnotationConfigDispatcherServletInitializer и
  * обычно используется в приложении на основе Spring MVC для конфигурации DispatcherServlet,
- * который играет лючевую роль в обработке входящих HTTP-запросов.
+ * который играет ключевую роль в обработке входящих HTTP-запросов.
  *
  * Этот класс расширяет класс
  * Spring AbstractAnnotationConfigDispatcherServletInitializer, который является частью модуля Spring Web.

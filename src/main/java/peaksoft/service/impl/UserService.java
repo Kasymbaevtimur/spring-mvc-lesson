@@ -2,6 +2,7 @@ package peaksoft.service.impl;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import peaksoft.model.User;
@@ -18,11 +19,6 @@ public class UserService implements ModelService<User> {
      * обновление, удаление и запросы.
      */
     @PersistenceContext
-    /**
-     * Environment: Это интерфейс в Spring, предоставляющий методы для доступа к свойствам среды выполнения приложения.
-     * Он может быть использован для чтения значений из файла свойств,
-     * переменных среды, системных свойств и других источников конфигурации.
-     */
     private EntityManager entityManager;
 
     @Override
